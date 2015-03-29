@@ -1,6 +1,6 @@
 # PKHReachability
 
-Simplified network status detection for iOS.
+Simple network status detection for iOS.
 
 ### About
 
