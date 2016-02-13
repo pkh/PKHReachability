@@ -13,19 +13,8 @@
 		7FD58CD11AC88F6600FFCCEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD58CCF1AC88F6600FFCCEF /* Main.storyboard */; };
 		7FD58CD31AC88F6600FFCCEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FD58CD21AC88F6600FFCCEF /* Images.xcassets */; };
 		7FD58CD61AC88F6600FFCCEF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FD58CD41AC88F6600FFCCEF /* LaunchScreen.xib */; };
-		7FD58CE21AC88F6600FFCCEF /* PKHReachability_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD58CE11AC88F6600FFCCEF /* PKHReachability_ExampleTests.m */; };
 		7FD58CED1AC8903700FFCCEF /* PKHReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD58CEC1AC8903700FFCCEF /* PKHReachability.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		7FD58CDC1AC88F6600FFCCEF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7FD58CBA1AC88F6600FFCCEF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7FD58CC11AC88F6600FFCCEF;
-			remoteInfo = "PKHReachability-Example";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7FD58CC21AC88F6600FFCCEF /* PKHReachability-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PKHReachability-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,22 +27,12 @@
 		7FD58CD01AC88F6600FFCCEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7FD58CD21AC88F6600FFCCEF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7FD58CD51AC88F6600FFCCEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		7FD58CDB1AC88F6600FFCCEF /* PKHReachability-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PKHReachability-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FD58CE01AC88F6600FFCCEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7FD58CE11AC88F6600FFCCEF /* PKHReachability_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKHReachability_ExampleTests.m; sourceTree = "<group>"; };
 		7FD58CEB1AC8903700FFCCEF /* PKHReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKHReachability.h; path = ../../PKHReachability.h; sourceTree = "<group>"; };
 		7FD58CEC1AC8903700FFCCEF /* PKHReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKHReachability.m; path = ../../PKHReachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7FD58CBF1AC88F6600FFCCEF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7FD58CD81AC88F6600FFCCEF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -67,7 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				7FD58CC41AC88F6600FFCCEF /* PKHReachability-Example */,
-				7FD58CDE1AC88F6600FFCCEF /* PKHReachability-ExampleTests */,
 				7FD58CC31AC88F6600FFCCEF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				7FD58CC21AC88F6600FFCCEF /* PKHReachability-Example.app */,
-				7FD58CDB1AC88F6600FFCCEF /* PKHReachability-ExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,23 +84,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7FD58CDE1AC88F6600FFCCEF /* PKHReachability-ExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				7FD58CE11AC88F6600FFCCEF /* PKHReachability_ExampleTests.m */,
-				7FD58CDF1AC88F6600FFCCEF /* Supporting Files */,
-			);
-			path = "PKHReachability-ExampleTests";
-			sourceTree = "<group>";
-		};
-		7FD58CDF1AC88F6600FFCCEF /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				7FD58CE01AC88F6600FFCCEF /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,39 +104,17 @@
 			productReference = 7FD58CC21AC88F6600FFCCEF /* PKHReachability-Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7FD58CDA1AC88F6600FFCCEF /* PKHReachability-ExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7FD58CE81AC88F6600FFCCEF /* Build configuration list for PBXNativeTarget "PKHReachability-ExampleTests" */;
-			buildPhases = (
-				7FD58CD71AC88F6600FFCCEF /* Sources */,
-				7FD58CD81AC88F6600FFCCEF /* Frameworks */,
-				7FD58CD91AC88F6600FFCCEF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7FD58CDD1AC88F6600FFCCEF /* PBXTargetDependency */,
-			);
-			name = "PKHReachability-ExampleTests";
-			productName = "PKHReachability-ExampleTests";
-			productReference = 7FD58CDB1AC88F6600FFCCEF /* PKHReachability-ExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		7FD58CBA1AC88F6600FFCCEF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = pkh;
 				TargetAttributes = {
 					7FD58CC11AC88F6600FFCCEF = {
 						CreatedOnToolsVersion = 6.2;
-					};
-					7FD58CDA1AC88F6600FFCCEF = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = 7FD58CC11AC88F6600FFCCEF;
 					};
 				};
 			};
@@ -194,7 +132,6 @@
 			projectRoot = "";
 			targets = (
 				7FD58CC11AC88F6600FFCCEF /* PKHReachability-Example */,
-				7FD58CDA1AC88F6600FFCCEF /* PKHReachability-ExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -207,13 +144,6 @@
 				7FD58CD11AC88F6600FFCCEF /* Main.storyboard in Resources */,
 				7FD58CD61AC88F6600FFCCEF /* LaunchScreen.xib in Resources */,
 				7FD58CD31AC88F6600FFCCEF /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7FD58CD91AC88F6600FFCCEF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,23 +161,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FD58CD71AC88F6600FFCCEF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7FD58CE21AC88F6600FFCCEF /* PKHReachability_ExampleTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7FD58CDD1AC88F6600FFCCEF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7FD58CC11AC88F6600FFCCEF /* PKHReachability-Example */;
-			targetProxy = 7FD58CDC1AC88F6600FFCCEF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7FD58CCF1AC88F6600FFCCEF /* Main.storyboard */ = {
@@ -289,6 +203,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -303,7 +218,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -338,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -351,6 +266,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "PKHReachability-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -361,41 +277,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "PKHReachability-Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		7FD58CE91AC88F6600FFCCEF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "PKHReachability-ExampleTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PKHReachability-Example.app/PKHReachability-Example";
-			};
-			name = Debug;
-		};
-		7FD58CEA1AC88F6600FFCCEF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "PKHReachability-ExampleTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PKHReachability-Example.app/PKHReachability-Example";
 			};
 			name = Release;
 		};
@@ -418,14 +301,7 @@
 				7FD58CE71AC88F6600FFCCEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		7FD58CE81AC88F6600FFCCEF /* Build configuration list for PBXNativeTarget "PKHReachability-ExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7FD58CE91AC88F6600FFCCEF /* Debug */,
-				7FD58CEA1AC88F6600FFCCEF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

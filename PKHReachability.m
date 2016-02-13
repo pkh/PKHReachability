@@ -24,11 +24,14 @@
     if (reachability != NULL) {
         SCNetworkReachabilityFlags flags = 0;
         if (SCNetworkReachabilityGetFlags(reachability, &flags) == 0) {
+            CFRelease(reachability);
             return NO;
         }
         
         BOOL isReachable = (flags & kSCNetworkFlagsReachable) != 0;
         BOOL needsConnection = (flags & kSCNetworkFlagsConnectionRequired) != 0;
+        
+        CFRelease(reachability);
         
         return (isReachable && !needsConnection) ? YES : NO;
     }
@@ -48,11 +51,14 @@
     if (reachability != NULL) {
         SCNetworkReachabilityFlags flags = 0;
         if (SCNetworkReachabilityGetFlags(reachability, &flags) == 0) {
+            CFRelease(reachability);
             return PKHReachabilityTypeNotConnected;
         }
         
         BOOL isReachable = (flags & kSCNetworkFlagsReachable) != 0;
         BOOL isWWAN = (flags & kSCNetworkReachabilityFlagsIsWWAN) != 0;
+        
+        CFRelease(reachability);
         
         if (isReachable && isWWAN) {
             return PKHReachabilityTypeWWAN;
